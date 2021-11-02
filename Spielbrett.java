@@ -13,7 +13,7 @@ public class Spielbrett{
 public static void refresh(){
 
 try{
-  if (Spielbrett.getSystem().equals("Windows")){
+  if (Spielbrett.getSystem().equals("Windows 10")){
 
     new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
 
