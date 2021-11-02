@@ -28,12 +28,14 @@ public class Spielbrett{
 
   public void printSpielfeld(int insert){
 
+    String white = " ";
+    for(int g=0;g<insert;g++){
+      white += " ";
+    }
+
     for(int i=0;i<lng;i++){
-      String white = " ";
-      for(int g=0;g<insert;g++){
-        white += " ";
-      }
       System.out.print(white);
+      System.out.print(""+(lng-i)+white);
       for(int z=0;z<lng;z++){
 
         System.out.print(feld[i][z] + " ");
@@ -41,6 +43,19 @@ public class Spielbrett{
       }
       System.out.println();
     }
+
+    for(int i=0;i<2;i++){
+      System.out.println();
+    }
+
+    System.out.print(white+white+" ");
+    for(int i=0;i<lng;i++){
+      System.out.print(((char)('A'+i))+" ");
+    }
+    System.out.println();
+    System.out.println();
+    System.out.println();
+    System.out.print(white+"Choose your field: ");
 
   }
 
