@@ -7,7 +7,11 @@ public class Point{
     y = b;
   }
 
-  public static int 
+  public int getX() {
+    return x;
+  }
 
-  return 0;
+  public int getY() {
+    return y;
+  }
 }
