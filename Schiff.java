@@ -1,9 +1,9 @@
-public class schiff{
+public class Schiff{
 
-    int l = 4;
-    boolean[];
+    boolean[][] s;
 
-    public schiff(){
+
+    public Schiff(){
         boolean[] = {0,1,2,3};
     }
 
@@ -11,3 +11,5 @@ public class schiff{
         (int)(Math.random()*100%lng)
     }
 }
+
+

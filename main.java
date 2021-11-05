@@ -7,7 +7,7 @@ class main{
 
     String eingabe="";
 
-    Spielbrett feld = new Spielbrett(8);
+    Spielbrett feld = new Spielbrett(10);
 
     do{
 
