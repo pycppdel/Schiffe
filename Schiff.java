@@ -17,7 +17,7 @@ public class Schiff{
     public Schiff(){
     }
 
-    public lage(int a, int b){
-        (int)(Math.random()*100%lng)
+    public void lage(int a, int b){
+      //  (int)(Math.random()*100%length)
     }
 }
