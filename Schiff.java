@@ -1,8 +1,8 @@
-public class schiff{
+public class Schiff{
 
-    boolean[][] s = new boolean[][]
+    boolean[][] s;
 
-    public schiff{
+    public Schiff(){
 
     }
 
