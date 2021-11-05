@@ -1,10 +1,20 @@
 public class Schiff{
 
-    boolean[][] s;
+    boolean[] s = {false,false,false,false};
+    // 1. zwei int x und y 2. x und y Koordinaten speichern
 
+    int x, y;
+    int length;
+
+    public Schiff(int a, int b, int c){
+
+        x = a;
+        y = b;
+        length = c;
+
+    }
 
     public Schiff(){
-        boolean[] = {0,1,2,3};
     }
 
     public lage(int a, int b){
