@@ -5,7 +5,8 @@ class schiffe_test{
 
     Schiff s = new Schiff(3, 3, 4);
 
-    System.out.println(s.length);
+
+    System.out.println(s.hit(5, 3));
 
   }
 
