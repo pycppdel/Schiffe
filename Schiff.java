@@ -11,5 +11,3 @@ public class Schiff{
         (int)(Math.random()*100%lng)
     }
 }
-
-
